@@ -16,7 +16,7 @@ public class FindLowestDifference {
                 min=array1[i];
             }
         }
-        System.out.println("The lowest difference between the 2 array is==>"+min);
+        System.out.println("The lowest difference between the two array cell is==>"+min);
 
 
     }
