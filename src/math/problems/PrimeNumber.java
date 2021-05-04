@@ -13,21 +13,8 @@ public class PrimeNumber {
          *
          */
 
-        for(int num=2;num<=1000000;num++){
-            int value=0;
-            for(int j=3;j<=num-1;j++) {
-                if (num % j == 0) {
-                    value = value + 1;
-                }
-            }
-            if(value==0) {
-                System.out.println(num + " : is prime");
-            }else{
-                System.out.println(num+" : is not prime");
 
-            }
         }
 
     }
 
-}
