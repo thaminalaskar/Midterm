@@ -65,7 +65,9 @@ Ans:
 using the keyword “implements”.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-Ans:
+Ans: You cannot create an object of abstract class or interface since they are incomplete class (interface is not
+even considered as a class.) What you can do is to implement a subclass of abstract class which, of course,
+must not be abstract.
 
 what is Access Specifier?
 Ans: Access specifier defines the way the members (attributes and methods) of a class can be accessed. The 4 types
@@ -265,7 +267,7 @@ in JSON files to getter / setter methods in Java objects, like Jackson, GSON, Bo
 Or, Reflection can be used to map the column names of a JDBC ResultSet to getter / setter methods in a Java object.
 
 what is multithreading in java?
-Ans:Multithreading in Java is the ability to execute code by different threads to perform tasks in parallel
+Multithreading in Java is the ability to execute code by different threads to perform tasks in parallel
 or as a separate task without waiting for other to complete (concurrently).
 
 What is the use of synchronization in Java?

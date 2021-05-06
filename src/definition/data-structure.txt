@@ -142,5 +142,3 @@ What is Big-(O)-notation?
 Ans: Big O notation is the most common metric for calculating time complexity. It describes the execution time
 of a task in relation to the number of steps required to complete it.
 
-
-

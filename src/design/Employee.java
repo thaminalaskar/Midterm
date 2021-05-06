@@ -1,7 +1,7 @@
 package design;
 
 public interface Employee {
-	
+
 	/*Employee is an Interface which contains multiple unimplemented methods.Again few methods
 	has been declared in below. you need to brainstorm to add more methods to meet the business requirements.
 	*/
@@ -9,18 +9,24 @@ public interface Employee {
     //and then implement these in a concrete class.
 
     //employeeId() will return employee id.
-    int employeeId();
+    public int employeeId();
 
     //employeeName() will return employee name
-    String employeeName();
+    public String employeeName();
 
     //assignDepartment() will assign employee to departments
-    void assignDepartment();
+    public void assignDepartment();
 
     //calculate employee salary
-    int calculateSalary();
+    public int calculateSalary();
 
     //employee benefit
-    void benefitLayout();
+    public void benefitLayout();
+
+    public void holidayBonus();
+
+    public void employeeAllowance();
+
+    public void employeeRetirement();
 
 }

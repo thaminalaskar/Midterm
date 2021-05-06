@@ -17,6 +17,10 @@ public class CnnAPI {
       You can get API_KEY from this below link. Once you have the API_KEY, you can fetch the top-headlines news.
       https://newsapi.org/s/cnn-api
 
+      //Your API key is: 5216a7c20b094ad8bfea8f53a38831d4
+
+
+
       Fetch This following CNN API, It will return some news in Json data. Store the data in the data.json file
       https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=YOUR_API_KEY
 

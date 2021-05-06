@@ -10,7 +10,6 @@ package datastructure;
  * Use For Each loop and while loop with Iterator to retrieve data.
  *
  */
-
 public class UseQueue<waitingQueue> {
 
     public static void main(String[] args) {
@@ -23,7 +22,7 @@ public class UseQueue<waitingQueue> {
         waitingQueue.add("Farzin");
         waitingQueue.add("Shadman");
         waitingQueue.add("Julia");
-        waitingQueue.add("Daniyal");
+        waitingQueue.add("Daniyl");
         waitingQueue.add("Adeel");
 
         System.out.println("WaitingQueue : " + waitingQueue);
@@ -32,7 +31,7 @@ public class UseQueue<waitingQueue> {
         System.out.println("********************************************************");
         System.out.println("Access Queue elements via Iterator and While loop: ");
         Iterator<String> iterator = waitingQueue.iterator();
-        while (iterator.hasNext()) {
+        while(iterator.hasNext()) {
             String element = iterator.next();
             System.out.println("Name in Queue : " + element);
         }
@@ -40,7 +39,7 @@ public class UseQueue<waitingQueue> {
         //access via For Each loop
         System.out.println("********************************************************");
         System.out.println("Access Queue elements via For Each loop: ");
-        for (String element : waitingQueue) {
+        for(String element: waitingQueue) {
             System.out.println("Name in Queue : " + element);
         }
 
@@ -53,10 +52,10 @@ public class UseQueue<waitingQueue> {
         // Removing an element from the Queue using remove() (The Dequeue operation)
         // The remove() method throws NoSuchElementException if the Queue is empty
         System.out.println("********************************************************");
-        try {
+        try{
             name = waitingQueue.remove();
             System.out.println("Removed from WaitingQueue by remove() function : " + name + " | New WaitingQueue : " + waitingQueue);
-        } catch (NoSuchElementException exp) {
+        }catch(NoSuchElementException exp){
             System.out.println("Queue is empty");
         }
 
@@ -69,18 +68,21 @@ public class UseQueue<waitingQueue> {
 
         // element() returns the first element from the Queue without taking it out of Queue
         // will throw a "NoSuchElementException" if Queueis empty
-        try {
+        try{
             firstPersonInTheWaitingQueue = waitingQueue.element();
             System.out.println("First Person in the Waiting Queue by element() function : " + firstPersonInTheWaitingQueue);
-        } catch (NoSuchElementException exp) {
+        }catch(NoSuchElementException exp){
             System.out.println("Queue is empty");
-
         }
+
+
+
+
+
+
+
+
     }
 }
-
-
-
-
 
 
